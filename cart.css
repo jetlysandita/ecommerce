@@ -8,42 +8,10 @@ body {
     font-family: Verdana;
 }
 
-header {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(81, 87, 104);
-    height: 10%;
-}
-nav ul {
-    position: absolute;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-}
-nav li {
-    float: left;
-}
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 22px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #111;
-}
 
 .content{
-    position: fixed;
+    position: absolute;
     margin-top:5%;
     width:100%;
     height:100%;
@@ -52,7 +20,7 @@ nav li a:hover {
 .list{
     width:70%;
     margin:auto;
-    height:65%;
+    height:70%;
 }
 .box-item{
     width:50%;

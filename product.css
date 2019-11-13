@@ -41,13 +41,3 @@ figcaption{
     font-weight: bold;
 }
 
-footer{
-    position:relative;
-    margin-top: 15%;
-    bottom:0;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    background-color: rgb(81, 87, 104);
-    color: white;
-}
