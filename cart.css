@@ -41,3 +41,62 @@ nav li a {
 nav li a:hover {
     background-color: #111;
 }
+
+.content{
+    position: fixed;
+    margin-top:5%;
+    width:100%;
+    height:100%;
+}
+
+.list{
+    width:70%;
+    margin:auto;
+    height:65%;
+}
+.box-item{
+    width:50%;
+    height:100%;
+    float:left;
+    background-color:rgba(156, 138, 117, 0.5);
+    overflow: auto;
+}
+.box-item-list{
+    width:100%;
+}
+.box-item-list .td{
+    width:40%;
+}
+.box-item h3{
+    margin-top:0;
+    padding:20px;
+    border-bottom: 1px solid white;
+}
+.box-item img{
+    width:100%;
+}
+.box-total{
+    float:right;
+    width:40%;
+    height:100%;
+    background-color:rgba(12, 9, 6, 0.5);
+}
+.box-total h3{
+    margin-top:0;
+    padding:20px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.bayar{
+background-color: rgb(255, 102, 0);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left:35%;
+  cursor: pointer;
+}
