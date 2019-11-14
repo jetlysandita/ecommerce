@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ecommerce</title>
-
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="breadcrump.css">
-    <link rel="stylesheet" href="cart.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <header>
@@ -19,47 +15,54 @@
         </h1>
         <div class="topnav">
             <input type="text" placeholder="Search..">
-            <button type="submit"> <img src="search-icon.png"></button>
-          </div> 
+            <button type="submit"><img src="image/search-icon.png"></button>
+        </div> 
         <nav>
             <ul>
                 <li>
-                    <a href="#intro">Product</a>
+                    <a href="index.html">Item</a>
+                </li>
+                <li class="active">
+                    <a href="cart.html">Keranjang</a>
+                </li>
+                <li class="">
+                    <a href="login.html">Login</a>
                 </li>
             </ul>
         </nav>
     </header>
-      <div class="forms">
-        <form>
-        <label for="email">e-mail</label>
-            <br>
-        <input rows="40" type="text" name="email" id="email">
-            <br>    
-        <label for="nama">nama</label>
-        <br>
-        <input type="text" name="nama" id="nama">
-        <br>
-        <label for="alamat">alamat</label>
-        <br>
-        <textarea name="alamat" id="alamat" rows="4" cols="20"></textarea>
-        <br>
-        <label for="telpon">telpon</label>
-        <br>
-        <input type="number">
-        <br>
-        <label for="pengiriman">jenis pengiriman</label>
-        <br>    
-        <select name="pengiriman" id="pengiriman" row>
-                <option value="instan">instant</option>
-                <option value="besok sampai">cepat</option>
-                <option value="reguler">santuy</option>
-            </select>
-            <br>
-            <a href="finalpage.html" class="finish">submit</a>
-        </form>
-    </body>
-</div>
-<footer>
+    <div class="forms">
+        <div class="breadcrump left full">
+            <ul>
+                <li>
+                    <a href="product.html">Item</a> < <a href="cart.html">Keranjang</a> < Alamat
+                </li>
+            </ul>
+        </div>
+        <div class="form">
+            <form>
+                <label for="email">E-mail</label>
+                <input rows="40" type="text" name="email" id="email" placeholder="Email anda.."> 
+                <label for="nama">Nama</label>
+                <input type="text" name="nama" id="nama" placeholder="Email anda..">
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" id="alamat" rows="4" cols="20" placeholder="Alamat anda.."></textarea>
+                <label for="telpon">Telpon</label>
+                <input type="number" placeholder="Telepon anda..">
+                <label for="pengiriman">Jenis pengiriman</label>  
+                <select name="pengiriman" id="pengiriman" row>
+                    <option value="instan">Instant</option>
+                    <option value="besok sampai">Cepat</option>
+                    <option value="reguler">Santuy</option>
+                </select>
+                <div class="proses center">
+                    <a href="finalpage.html" class="button radius">Proses</a>
+                </div> 
+            </form>
+        </div>
+    </div>
+    <footer style="margin-top:0;">
         <h5>copyright &copy; 2019 by Majestic Fox</h5>
     </footer>
+</body>
 </html>

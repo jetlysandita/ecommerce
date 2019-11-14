@@ -1,0 +1,12 @@
+/* biasanya breadcrump buat history menu menu sebelumnya */
+/* contoh : menu a < menu b < menu c */
+/* supaya kita bsa balik langsung ke menu a tanpa ke menu b dlu */
+.breadcrump{
+    padding:5px;
+}
+.breadcrump ul{
+    list-style:none;
+}
+.breadcrump ul li a{
+   text-decoration: none;
+}

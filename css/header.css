@@ -1,3 +1,4 @@
+/* untuk header */
 header {
     z-index: 1;
     position: fixed;
@@ -8,7 +9,6 @@ header {
     height: 10%;
 
 }
-
 /* Style the search box inside the navigation bar */
 .topnav {
     overflow: hidden;
@@ -18,19 +18,14 @@ header {
     margin-top: 16px;
     padding: 3px;
     margin-left: 20%;
-    font-size: 17px;
-    
+    font-size: 17px;   
 }
-
 .topnav input {
-
     width: 300px;
 }
-
 .topnav button img {
     width: 14px;
 }
-
 nav ul {
     position: absolute;
     list-style-type: none;
@@ -43,7 +38,6 @@ nav ul {
 nav li {
     float: left;
 }
-
 nav li a {
     display: block;
     color: white;
@@ -51,7 +45,6 @@ nav li a {
     padding: 22px;
     text-decoration: none;
 }
-
 nav li a:hover {
     background-color: #111;
 }
