@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ecommerce</title>
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="breadcrump.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    
-</body>
+    <header>
+        <h1 style="padding:1px;color:white;margin-top:10px;">
+            Ecommerce
+        </h1>
+        <div class="topnav">
+            <input type="text" placeholder="Search..">
+            <button type="submit"> <img src="search-icon.png"></button>
+          </div> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="#intro">Product</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+      <div class="forms">
+        <form>
+        <label for="email">e-mail</label>
+            <br>
+        <input rows="40" type="text" name="email" id="email">
+            <br>    
+        <label for="nama">nama</label>
+        <br>
+        <input type="text" name="nama" id="nama">
+        <br>
+        <label for="alamat">alamat</label>
+        <br>
+        <textarea name="alamat" id="alamat" rows="4" cols="20"></textarea>
+        <br>
+        <label for="telpon">telpon</label>
+        <br>
+        <input type="number">
+        <br>
+        <label for="pengiriman">jenis pengiriman</label>
+        <br>    
+        <select name="pengiriman" id="pengiriman" row>
+                <option value="instan">instant</option>
+                <option value="besok sampai">cepat</option>
+                <option value="reguler">santuy</option>
+            </select>
+            <br>
+            <a href="finalpage.html" class="finish">submit</a>
+        </form>
+    </body>
+</div>
+<footer>
+        <h5>copyright &copy; 2019 by Majestic Fox</h5>
+    </footer>
 </html>
