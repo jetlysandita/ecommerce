@@ -1,21 +1,23 @@
 body {
     background-color: white;
     height: 100%;
+    overflow-x: hidden;
 }
 
 
 .grid-container {
     display: grid;
-    margin-left: 150px;
-    grid-template-columns: 500px 500px;
-    grid-row-gap: 50px;
-    grid-column-gap: 10px;
+    float: both;
+    width: 100%;
+    margin-left: 20%;
+    grid-template-columns: 25% 25% 25%;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
 }
 
 .grid-container > div {
     position: relative;
     top: 40%;
-    padding: 20px 0;
     text-align: center;
     border: 1px solid rgba(175, 162, 162,0.6);
     width: 300px;
@@ -25,11 +27,12 @@ body {
 }
 
 
-img {
+.item {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    width: 150px;
+    height: 150px;
 }
 
 figcaption{
