@@ -1,20 +1,17 @@
 body {
     font-family: verdana;
-    background: #gey;
+    background: #grey;
   }
-  
   h1 {
     text-align: center;
     /*ketebalan font*/
     font-weight: 300;
   }
-  
   .tulisan_login {
     text-align: center;
     /*membuat semua huruf menjadi kapital*/
     text-transform: uppercase;
   }
-  
   .kotak_login {
     width: 350px;
     background: white;
@@ -22,11 +19,9 @@ body {
     margin: 80px auto;
     padding: 30px 20px;
   }
-  
   label {
     font-size: 11pt;
   }
-  
   .form_login {
     /*membuat lebar form penuh*/
     box-sizing: border-box;
@@ -37,7 +32,7 @@ body {
   }
   
   .tombol_login {
-    background: #46de4b;
+    background: rgb(81, 87, 104);
     color: white;
     font-size: 11pt;
     width: 100%;
@@ -45,7 +40,6 @@ body {
     border-radius: 3px;
     padding: 10px 20px;
   }
-  
   .link {
     color: #232323;
     text-decoration: none;

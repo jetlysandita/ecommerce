@@ -1,0 +1,47 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'breadcrump.css';
+/* untuk default */
+html{
+    color:rgb(81, 87, 104);
+    scroll-behavior: smooth;
+    font-family: Verdana;
+}
+/* untuk default button */
+.button{
+  background-color: rgb(81, 87, 104);
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* untuk menu yang sedang aktif */
+.active{
+    background-color: #111;
+}
+/* untuk kasih border */
+.border{
+    border: 1px solid rgb(81, 87, 104);
+}
+/* untuk radius border */
+.radius{
+    border-radius:8px;
+}
+/* untuk center text-align */
+.center{
+    text-align:center;
+}
+.left{
+    text-align:left;
+}
+.full{
+    width:100%;
+}
+/* kenapa dibikin seperti ini 
+karena ini contoh bahwa css bsa reusable 
+jdi yang mungkin umum digunakan
+bisa dijadikan global untuk digunakan lagi  */

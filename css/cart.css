@@ -1,13 +1,8 @@
-html{
-    scroll-behavior: smooth;
-}
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: Verdana;
 }
-
 .search-container button {
     float: right;
     padding: 6px 10px;
@@ -18,23 +13,20 @@ body {
     border: none;
     cursor: pointer;
 }
-
-
 .content{
-    position: absolute;
     margin-top:5%;
     width:100%;
     height:100%;
 }
-
 .list{
-    width:70%;
+    width:60%;
     margin:auto;
-    height:70%;
+    height:100%;
+    padding-bottom:50px;
 }
 .box-item{
     width:50%;
-    height:100%;
+    height:300px;
     float:left;
     background-color:rgba(156, 138, 117, 0.5);
     overflow: auto;
@@ -54,9 +46,8 @@ body {
     width:100%;
 }
 .box-total{
-    float:right;
     width:40%;
-    height:100%;
+    margin-left:50%;
     background-color:rgba(12, 9, 6, 0.5);
 }
 .box-total h3{
@@ -65,16 +56,8 @@ body {
     border-bottom: 1px solid white;
     color: white;
 }
-.bayar{
-background-color: rgb(255, 102, 0);
-  border: none;
-  color: white;
+.button-custom{
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   margin-left:35%;
-  cursor: pointer;
 }
